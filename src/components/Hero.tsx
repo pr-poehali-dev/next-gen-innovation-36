@@ -24,13 +24,18 @@ export default function Hero() {
           className="w-full h-full object-cover"
         />
       </motion.div>
+      <div className="absolute inset-0 bg-black/50" />
 
-      <div className="relative z-10 text-center text-white">
+      <div className="relative z-10 text-center text-white px-6 max-w-4xl">
+        <p className="text-xs uppercase tracking-widest mb-4 opacity-70">Учебный справочник</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
           ТУРИЗМ
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Справочник о путешествиях: направления, маршруты и всё, что важно знать в дороге
+        <p className="text-lg md:text-xl opacity-90 mb-2">
+          Модуль 1 · Модуль 2
+        </p>
+        <p className="text-sm opacity-60 mt-4">
+          НЕ ЗАБЫВАЕМ В КОЛОНТИТУЛЕ ПИСАТЬ НОМЕР РАБОЧЕГО СТОЛА И ФАМИЛИЯ С ИНИЦИАЛАМИ НА КАЖДОМ ЛИСТЕ
         </p>
       </div>
     </div>
